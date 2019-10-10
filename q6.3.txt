@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void){
+	int i=0, L;
+
+  printf("Digite um valor L: ");
+	scanf("%d", &L);
+
+  while (i*i <= L)
+  i++;
+  printf("O quadrado de %d = %d, é superior a L = %d", i, i*i, L);
+
+	return 0;
+
+}

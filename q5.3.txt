@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int fatorial(int x){
+  int produto=1;
+  int i;
+  if(x==0){
+    return 1;
+  }
+  if(x>0){
+   
+  }
+  for(i=1;i<=x;i++){
+    produto=produto*i;
+  }
+  return produto;
+}
+
+int main(void) {
+int a, b;
+printf("digite um número\n");
+scanf("%d", &a);
+b=fatorial(a);
+printf("Fatorial de %d = %d", a, b);
+  return 0;
+}

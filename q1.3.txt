@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+ int i = 0, soma = 0, cont = 0;
+ for(i=0;i<=100;i++){
+   cont = i;
+   soma = soma + cont;
+ }
+
+ printf("Soma do 100 primeiros naturais = %d ", soma);
+
+  return 0;
+}

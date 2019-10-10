@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+int i=0 , fora = 0, dentro = 0, num = 0; 
+
+for(i=0;i<10;i++){
+printf("Digite um número:");
+scanf("%d",&num);
+
+if((num>=10) && (num<=50)){
+dentro = dentro + 1;
+}
+else{
+  fora = fora + 1;
+  }
+}
+  
+printf("%d números estão dentro do intervalo [10,50]\n", dentro);
+printf("%d números estão fora do intervalo [10,50]", fora);
+return 0;
+}
