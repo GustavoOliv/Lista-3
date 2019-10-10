@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+  char texto[100];
+  int cont = 0, i, num;
+  printf("Digite algo: ");
+  fgets(texto, 100, stdin);
+  for(i = 0; i < 101; i++){
+    num = texto[i];
+    if(num == 65 || num == 97){
+      cont++;
+    }
+  }
+  printf("Você digitou %d letras a.", cont);
+  return 0;
+}
